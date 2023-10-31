@@ -1,0 +1,18 @@
+.central-total:hover {
+
+    background-color: black;
+
+    border-radius: 15px;
+    transition: .8s;
+    transform: scale(1.2);
+    
+
+}
+
+.central-total:hover .textiframe h4 , .textiframe p {
+  
+        color: white;
+
+    
+
+}
