@@ -1,0 +1,90 @@
+.headerc {
+
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "esquerdo centro direito";
+    height: 50px;
+    margin: 0px 0px 50px 0px;
+
+}
+
+.head-esquerdo {
+
+   
+    grid-area: esquerdo;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-left: 24px;
+}
+
+.head-esquerdo .logoyoutube {
+
+    width: 90px;
+    height: 20px;
+
+}
+
+.head-esquerdo .menu {
+
+    width: 24px;
+    height: 24px;
+}
+
+
+
+.head-central {
+
+    grid-area: centro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.head-central .pesquisa {
+
+    padding-left: 15px;
+    font-size: 18px;
+    width: 348px;
+    height: 40px;
+}
+
+.head-central .botao {
+
+    width: 57px;
+    height: 40px;
+}
+
+
+.head-central .imgbotao {
+
+    width: 24px;
+    height: 24px;
+    margin: auto;
+}
+
+.head-direito {
+    grid-area: direito;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 24px;
+
+    margin-right: 24px;
+
+   
+}
+
+
+
+.head-direito .will {
+
+    width: 34px;
+    height: 34px;
+    border-radius: 30px;
+}
