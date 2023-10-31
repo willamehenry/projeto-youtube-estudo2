@@ -54,12 +54,16 @@
     font-size: 18px;
     width: 348px;
     height: 40px;
+    border: #CCCCCC 2px solid;
+    border-right: none;
 }
 
 .head-central .botao {
 
     width: 57px;
     height: 40px;
+    border: #CCCCCC 2px solid;
+
 }
 
 
@@ -67,7 +71,8 @@
 
     width: 24px;
     height: 24px;
-    margin: auto;
+
+
 }
 
 .head-direito {
