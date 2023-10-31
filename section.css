@@ -1,9 +1,13 @@
 .section1c .container {
     display: grid;
-    grid-template-columns: repeat(4, 282px);
-    grid-template-rows: repeat(3, 262px);
-    justify-content: center;
-    background-color:  #F9F9F9;
+    grid-template-columns: repeat(4, auto);
+
+    grid-auto-rows: minmax(100px, auto);
+    
+    gap: 10px 10px;
+    padding: 30px;
+    background-color: #F9F9F9;
+
 
 }
 
@@ -11,28 +15,28 @@
 
     border-radius: 10px;
 
-    margin: 10px 10px 10px 15px;
-    width: 250px;
-    height: 140px;
+
+    width: 300px;
+    height: 180px;
+
+
+}
+
+.central-total {
+    padding: 16px;
 
 }
 
 
-.textiframe {
-
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-}
 
 .textiframe h4 {
     width: 197px;
     color: #000;
     font-family: 'Roboto';
-    font-size: 14px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 600;
-    line-height: normal;
+    line-height: 21px;
     margin-bottom: 10px;
 
 }
@@ -40,7 +44,7 @@
 .textiframe p {
     color: #515151;
     font-family: 'Roboto';
-    font-size: 12px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -49,11 +53,12 @@
 .central-texto {
     display: inline-flex;
     gap: 10px;
-    flex-wrap: wrap;
-
+    
+    padding-top: 16px;
 }
 
 .central-texto img {
+
 
     width: 42px;
     height: 42px;
