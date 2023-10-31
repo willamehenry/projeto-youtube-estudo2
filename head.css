@@ -1,5 +1,5 @@
 .headerc {
-
+    background-color: #FFF;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -8,11 +8,13 @@
     height: 50px;
     margin: 0px 0px 50px 0px;
 
+
+
 }
 
 .head-esquerdo {
 
-   
+
     grid-area: esquerdo;
     display: flex;
     justify-content: flex-start;
@@ -77,7 +79,7 @@
 
     margin-right: 24px;
 
-   
+
 }
 
 

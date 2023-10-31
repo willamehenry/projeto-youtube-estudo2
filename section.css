@@ -2,29 +2,21 @@
     display: grid;
     grid-template-columns: repeat(4, 282px);
     grid-template-rows: repeat(3, 262px);
-
-    
     justify-content: center;
-
+    background-color:  #F9F9F9;
 
 }
 
 .section1c .container iframe {
 
     border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
+
+    margin: 10px 10px 10px 15px;
     width: 250px;
     height: 140px;
-}
-.central-total:hover {
 
-    transform: scale(1.3);
-    transition: 1.3s;
-    z-index: -1;
-    
 }
+
 
 .textiframe {
 
@@ -36,21 +28,28 @@
 .textiframe h4 {
     width: 197px;
     color: #000;
-
     font-family: 'Roboto';
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 
+}
 
+.textiframe p {
+    color: #515151;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .central-texto {
     display: inline-flex;
     gap: 10px;
-    padding-top: 16px;
+    flex-wrap: wrap;
 
 }
 
@@ -59,5 +58,5 @@
     width: 42px;
     height: 42px;
     border-radius: 30px;
-
+    margin-left: 5px;
 }
